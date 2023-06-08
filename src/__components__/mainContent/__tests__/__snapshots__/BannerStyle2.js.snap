@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerStyle2:UI Test UI test 1`] = `
+<div
+  className="main_banner"
+>
+  <img
+    className="main_banner_img2"
+    src="zindex2.png"
+  />
+  <img
+    className="blackcloud"
+    src="blackcloud.png"
+  />
+  <img
+    className="cloud1"
+    src="cloud1.png"
+  />
+  <img
+    className="cloud2"
+    src="cloud2.png"
+  />
+  <img
+    className="cloud3"
+    src="cloud3.png"
+  />
+  <img
+    className="car_pink"
+    src="car_pink.png"
+  />
+  <img
+    className="car_blue"
+    src="car_blue.png"
+  />
+  <img
+    className="car_orange"
+    src="car_orange.png"
+  />
+  <img
+    className="car_white"
+    src="car_white.png"
+  />
+  <img
+    className="car_green"
+    src="car_green.png"
+  />
+  <img
+    className="main_banner_img"
+    src="zindex0.png"
+  />
+</div>
+`;

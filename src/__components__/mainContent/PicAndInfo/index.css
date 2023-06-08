@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha&display=swap");
+.cardBox {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0%;
+  padding: 0.5em;
+  box-sizing: border-box;
+  /* border-width: 1px;
+  border-radius: 0.2em;
+  border-color: #919191;
+  border-style: solid; */
+}
+.picBox {
+  width: 15%;
+  float: left;
+  color: #919191;
+  font-size: 1.6em;
+  font-family: "Neucha", "微軟正黑體", cursive;
+}
+.picBox img {
+  border-radius: 0.5em;
+  width: 100%;
+}
+.textBox {
+  float: left;
+  max-width: 80%;
+  margin-left: 5%;
+  color: #919191;
+  font-size: 1em;
+  text-align: justify;
+  font-family: "Neucha", "微軟正黑體", cursive;
+}
+.textBox .textBoxdiv {
+  font-size: 0.8em;
+}
+.clear {
+  clear: both;
+}
+/* -----------------------------------------------*/
+/* PAD( 768px <= Screen <= 1028px 套用以下CSS)-----*/
+/* -----------------------------------------------*/
+
+@media (max-width: 768px) and (max-width: 1028px) {
+}
+/* -----------------------------------------------*/
+/* SMALL_PAD( 481px <= Screen <= 767px 套用以下CSS )*/
+/* -----------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .picBox {
+    width: 25%;
+  }
+  .textBox {
+    max-width: 70%;
+  }
+}
+/* -----------------------------------------------*/
+/* PHONE( 361px <= Screen <= 480px 套用以下CSS )---*/
+/* -----------------------------------------------*/
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .picBox {
+    width: 50%;
+  }
+  .textBox {
+    max-width: 100%;
+    clear: both;
+  }
+}
+/* -----------------------------------------------*/
+/* SMALL_PHONE( Screen <= 360px 套用以下CSS )------*/
+/* -----------------------------------------------*/
+
+@media only screen and (max-width: 360px) {
+  .picBox {
+    width: 50%;
+  }
+  .textBox {
+    max-width: 100%;
+    clear: both;
+  }
+}

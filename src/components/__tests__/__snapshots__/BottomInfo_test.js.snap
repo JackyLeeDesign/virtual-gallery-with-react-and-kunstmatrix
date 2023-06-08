@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomInfo:UI Test UI test 1`] = `
+<div
+  className="footer_copyright"
+>
+  Copyright © 2019 JackyLee
+  <br />
+  建議瀏覽器：Chrome，Firefox，IE10.0以上版本（螢幕最佳顯示效果為1920 * 1280)
+</div>
+`;

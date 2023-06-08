@@ -1,0 +1,98 @@
+.main_banner,
+.main_banner_img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  overflow: hidden;
+}
+.boy_1 {
+  position: absolute;
+  width: 1.4%;
+  top: 80%;
+  animation: updown 0.8s, LtoR 30s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease, linear;
+}
+.boy_2 {
+  position: absolute;
+  width: 1.4%;
+  left: -10%;
+  top: 80%;
+  animation: updown 0.9s, LtoR 50s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease, linear;
+}
+.boy_3 {
+  position: absolute;
+  width: 1.4%;
+  margin-left: 100%;
+  top: 80%;
+  animation: updown 1s, RtoL 60s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease, linear;
+}
+.girl_1 {
+  position: absolute;
+  width: 1.65%;
+  margin-left: 100%;
+  top: 80%;
+  animation: updown 1.2s, RtoL 80s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease, linear;
+}
+.girl_2 {
+  position: absolute;
+  width: 1.65%;
+  margin-left: 100%;
+  top: 80%;
+  animation: updown 0.9s, RtoL 50s;
+  animation-delay: 7s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease, linear;
+}
+.girl_3 {
+  position: absolute;
+  width: 1.65%;
+  left: -10%;
+  top: 80%;
+  animation: updown 0.7s, LtoR 35s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease, linear;
+}
+@keyframes updown {
+  33% {
+    top: 80%;
+  }
+  66% {
+    top: 75%;
+  }
+  100% {
+    top: 80%;
+  }
+}
+@keyframes LtoR {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 110%;
+  }
+}
+@keyframes RtoL {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}

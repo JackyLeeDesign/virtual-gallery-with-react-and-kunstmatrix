@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha&display=swap");
+.cardBoxWidth1 {
+  width: 100%;
+  margin-left: 0%;
+}
+.cardBoxWidth2 {
+  width: 44%;
+  margin-left: 4%;
+}
+.cardBoxWidth3 {
+  width: 28%;
+  margin-left: 4%;
+}
+.cardBoxWidth4 {
+  width: 20%;
+  margin-left: 4%;
+}
+.cardBoxWidth5 {
+  width: 16.4%;
+  margin-left: 3%;
+}
+.cardBoxWidth6 {
+  width: 13.1%;
+  margin-left: 3%;
+}
+.cardBoxWidth7 {
+  width: 10.85%;
+  margin-left: 3%;
+}
+.cardBoxWidth8 {
+  width: 10.25%;
+  margin-left: 2%;
+}
+.cardBoxWidth9 {
+  width: 8.8%;
+  margin-left: 2%;
+}
+.cardBoxWidth10 {
+  width: 7.8%;
+  margin-left: 2%;
+}
+.cardBoxWidth11 {
+  width: 8%;
+  margin-left: 1%;
+}
+.cardBoxWidth12 {
+  width: 7.25%;
+  margin-left: 1%;
+}
+.cardBox {
+  max-width: 100%;
+  min-width: 0%;
+  padding: 0.5em;
+  box-sizing: border-box;
+  display: inline-block;
+  /* border-width: 1px;
+  border-radius: 0.2em;
+  border-color: #919191;
+  border-style: solid; */
+}
+.titleBox {
+  color: #575757;
+  font-size: 2em;
+  font-family: "Neucha", "微軟正黑體", cursive;
+}
+.picBox {
+  color: #919191;
+  font-size: 1.6em;
+  font-family: "Neucha", "微軟正黑體", cursive;
+}
+.picBox img {
+  border-radius: 0.5em;
+  width: 100%;
+}
+.textBox {
+  color: #919191;
+  font-size: 1.6em;
+  font-family: "Neucha", "微軟正黑體", cursive;
+}
+/* -----------------------------------------------*/
+/* PAD( 768px <= Screen <= 1028px 套用以下CSS)-----*/
+/* -----------------------------------------------*/
+
+@media (max-width: 768px) and (max-width: 1028px) {
+}
+/* -----------------------------------------------*/
+/* SMALL_PAD( 481px <= Screen <= 767px 套用以下CSS )*/
+/* -----------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .cardBoxWidth3,
+  .cardBoxWidth4,
+  .cardBoxWidth5,
+  .cardBoxWidth6,
+  .cardBoxWidth7,
+  .cardBoxWidth8,
+  .cardBoxWidth9,
+  .cardBoxWidth10,
+  .cardBoxWidth11,
+  .cardBoxWidth12 {
+    width: 44%;
+    margin-left: 4%;
+  }
+}
+/* -----------------------------------------------*/
+/* PHONE( 361px <= Screen <= 480px 套用以下CSS )---*/
+/* -----------------------------------------------*/
+
+@media (min-width: 361px) and (max-width: 480px) {
+  .cardBoxWidth2,
+  .cardBoxWidth3,
+  .cardBoxWidth4,
+  .cardBoxWidth5,
+  .cardBoxWidth6,
+  .cardBoxWidth7,
+  .cardBoxWidth8,
+  .cardBoxWidth9,
+  .cardBoxWidth10,
+  .cardBoxWidth11,
+  .cardBoxWidth12 {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+/* -----------------------------------------------*/
+/* SMALL_PHONE( Screen <= 360px 套用以下CSS )------*/
+/* -----------------------------------------------*/
+
+@media only screen and (max-width: 360px) {
+  .cardBoxWidth2,
+  .cardBoxWidth3,
+  .cardBoxWidth4,
+  .cardBoxWidth5,
+  .cardBoxWidth6,
+  .cardBoxWidth7,
+  .cardBoxWidth8,
+  .cardBoxWidth9,
+  .cardBoxWidth10,
+  .cardBoxWidth11,
+  .cardBoxWidth12 {
+    width: 100%;
+    margin-left: 0%;
+  }
+}

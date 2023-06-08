@@ -1,0 +1,99 @@
+.badge {
+  font-size: 0.6em;
+  padding: 0.3em;
+  border-radius: 0.5em;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+  cursor: pointer;
+}
+.badgeBigText {
+  font-size: 1.2em;
+  margin-right: 0.2em;
+  white-space: nowrap;
+}
+.gray:hover {
+  background: #6c757d;
+  color: white;
+}
+.red {
+  background: #d88f97;
+  color: white;
+}
+.red:hover {
+  background: #dc3545;
+  color: white;
+}
+.orange {
+  background-color: #ddb697;
+  color: white;
+}
+.orange:hover {
+  background-color: #d17d4d;
+  color: white;
+}
+.yellow {
+  background: #cec386;
+  color: white;
+}
+.yellow:hover {
+  background: #e7b82b;
+  color: #212529;
+}
+.green {
+  background: #78c089;
+  color: white;
+}
+.green:hover {
+  background: #28a745;
+  color: white;
+}
+
+.cyan {
+  background: #81b3bb;
+  color: white;
+}
+.cyan:hover {
+  background: #17a2b8;
+  color: white;
+}
+.blue {
+  background-color: #72a7e0;
+  color: white;
+}
+.blue:hover {
+  background-color: #007bff;
+  color: white;
+}
+.purple {
+  background-color: #af92db;
+  color: white;
+}
+.purple:hover {
+  background-color: #7952b3;
+  color: white;
+}
+.gray {
+  background: #a6b2bd;
+  color: white;
+}
+.white {
+  background: #ffffff;
+  color: #5e5e5e;
+}
+.light {
+  background: #f8f9fa;
+  color: #5e5e5e;
+}
+.white:hover,
+.light:hover {
+  background: #343a40;
+  color: white;
+}
+.dark {
+  background: #343a40;
+  color: white;
+}
+.dark:hover {
+  background: #f8f9fa;
+  color: #212529;
+}

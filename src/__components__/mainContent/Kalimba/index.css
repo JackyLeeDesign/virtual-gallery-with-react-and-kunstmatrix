@@ -1,0 +1,288 @@
+.kalimbaContainer {
+  display: flex;
+  background: #ffffff;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-around;
+  margin-bottom: 12em;
+  margin-top: 12em;
+  max-width: 888px;
+  margin-left: 5%;
+  position: relative;
+}
+.kalimbaBtn {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 1em;
+  flex-grow: 1;
+  background: #ffffff;
+  border-color: rgb(95, 95, 95);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin: 0.5em;
+  box-shadow: 4px 4px 12px -2px rgba(20%, 20%, 40%, 0.5);
+}
+.kalimbaBtn:active {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+  background: rgb(245, 246, 246); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(245, 246, 246, 1) 0%,
+    rgba(219, 220, 226, 1) 21%,
+    rgba(184, 186, 198, 1) 49%,
+    rgba(221, 223, 227, 1) 80%,
+    rgba(245, 246, 246, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(245, 246, 246, 1) 0%,
+    rgba(219, 220, 226, 1) 21%,
+    rgba(184, 186, 198, 1) 49%,
+    rgba(221, 223, 227, 1) 80%,
+    rgba(245, 246, 246, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(245, 246, 246, 1) 0%,
+    rgba(219, 220, 226, 1) 21%,
+    rgba(184, 186, 198, 1) 49%,
+    rgba(221, 223, 227, 1) 80%,
+    rgba(245, 246, 246, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+}
+.kalimbaBlack {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+  background: rgb(245, 246, 246); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(245, 246, 246, 1) 0%,
+    rgba(219, 220, 226, 1) 21%,
+    rgb(66, 66, 66) 49%,
+    rgba(221, 223, 227, 1) 80%,
+    rgba(245, 246, 246, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(245, 246, 246, 1) 0%,
+    rgba(219, 220, 226, 1) 21%,
+    rgb(66, 66, 66) 49%,
+    rgba(221, 223, 227, 1) 80%,
+    rgba(245, 246, 246, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(245, 246, 246, 1) 0%,
+    rgba(219, 220, 226, 1) 21%,
+    rgb(66, 66, 66) 49%,
+    rgba(221, 223, 227, 1) 80%,
+    rgba(245, 246, 246, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+
+  height: 1em;
+  width: 100%;
+  margin-top: 5em;
+  border-radius: 2em;
+  position: absolute;
+  box-shadow: 4px 4px 3px rgba(20%, 20%, 40%, 0.5);
+  z-index: 1;
+}
+.kalimbaD6 {
+  height: 20em;
+}
+.kalimbaB5 {
+  height: 23em;
+}
+.kalimbaG5 {
+  height: 26em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+17,ffcccc+54,ffe5e5+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe5e5',GradientType=0 ); /* IE6-9 */
+}
+.kalimbaE5 {
+  height: 29em;
+}
+.kalimbaC5 {
+  height: 32em;
+}
+.kalimbaA4 {
+  height: 35em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+17,ffcccc+54,ffe5e5+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe5e5',GradientType=0 ); /* IE6-9 */
+}
+.kalimbaF4 {
+  height: 38em;
+}
+.kalimbaD4 {
+  height: 42em;
+}
+.kalimbaC4 {
+  height: 45em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+17,ffcccc+54,ffe5e5+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe5e5',GradientType=0 ); /* IE6-9 */
+}
+.kalimbaE4 {
+  height: 42em;
+}
+.kalimbaG4 {
+  height: 38em;
+}
+.kalimbaB4 {
+  height: 35em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+17,ffcccc+54,ffe5e5+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe5e5',GradientType=0 ); /* IE6-9 */
+}
+.kalimbaD5 {
+  height: 32em;
+}
+.kalimbaF5 {
+  height: 29em;
+}
+.kalimbaA5 {
+  height: 26em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+17,ffcccc+54,ffe5e5+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 17%,
+    #ffcccc 54%,
+    #ffffff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe5e5',GradientType=0 ); /* IE6-9 */
+}
+.kalimbaC6 {
+  height: 23em;
+}
+.kalimbaE6 {
+  height: 20em;
+}
+
+/* -----------------------------------------------*/
+/* SMALL_PAD( 481px <= Screen <= 767px 套用以下CSS )*/
+/* -----------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /*----- style -----*/
+  .kalimbaContainer {
+    transform: scaleX(0.6);
+    transform: scaleY(0.3);
+    padding: 0px;
+    margin-left: 3%;
+  }
+}
+/* -----------------------------------------------*/
+/* PHONE( 361px <= Screen <= 480px 套用以下CSS )---*/
+/* -----------------------------------------------*/
+
+@media (min-width: 361px) and (max-width: 480px) {
+  /*----- style -----*/
+  .kalimbaContainer {
+    transform: scaleX(0.4);
+    transform: scaleY(0.5);
+    padding: 0px;
+    margin-left: 3%;
+  }
+}
+/* -----------------------------------------------*/
+/* SMALL_PHONE( Screen <= 360px 套用以下CSS )------*/
+/* -----------------------------------------------*/
+
+@media only screen and (max-width: 360px) {
+  /*----- style -----*/
+  .kalimbaContainer {
+    transform: scale(0.8, 0.4);
+    padding: 0px;
+    margin-left: 3%;
+  }
+}

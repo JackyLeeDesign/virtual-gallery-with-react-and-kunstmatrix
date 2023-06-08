@@ -1,0 +1,52 @@
+    /* -----------------------------------------------*/
+    /* ALL( Screen > 1029px 套用以下CSS )--------------*/
+    /* -----------------------------------------------*/
+    /*----- style -----*/
+
+    /* banner */
+    .bannerText{
+        width: 30%;
+        margin-left: 40px;
+        background-color: rgba(255, 255, 255, 0.61);
+        padding: 25px;
+        z-index: 9999;
+        border-radius:5px;
+        margin-top:40px;
+    }
+     /* font */
+     .fontgood{
+        font-family: 'Amatic SC', cursive;
+        font-size:30px;
+        letter-spacing:5px;
+        line-height:1.18;
+        color:rgb(53, 53, 53);
+        font-weight:bold;
+    }
+    /* -----------------------------------------------*/
+    /* PAD( 768px <= Screen <= 1028px 套用以下CSS)-----*/
+    /* -----------------------------------------------*/
+    
+    @media(max-width: 768px) and (max-width: 1028px) {
+       
+    }
+    /* -----------------------------------------------*/
+    /* SMALL_PAD( 481px <= Screen <= 767px 套用以下CSS )*/
+    /* -----------------------------------------------*/
+    
+    @media(min-width: 481px) and (max-width: 767px) {
+       
+    }
+    /* -----------------------------------------------*/
+    /* PHONE( 361px <= Screen <= 480px 套用以下CSS )---*/
+    /* -----------------------------------------------*/
+    
+    @media(min-width: 361px) and (max-width: 480px) {
+       
+    }
+    /* -----------------------------------------------*/
+    /* SMALL_PHONE( Screen <= 360px 套用以下CSS )------*/
+    /* -----------------------------------------------*/
+    
+    @media only screen and (max-width: 360px) {
+       
+    }

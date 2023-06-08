@@ -1,0 +1,56 @@
+.gameArea {
+  margin-left: 25%;
+}
+.successText {
+  width: bold;
+  color: darkolivegreen;
+}
+.error {
+  transition-delay: 1s;
+}
+.white {
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.3s linear;
+}
+.gray {
+  background-color: gray;
+  transition: background-color 0.3s linear;
+}
+.darkgray {
+  background-color: rgb(66, 66, 66);
+  transition: background-color 0.3s linear;
+}
+.red {
+  background-color: rgb(247, 168, 168);
+  transition: background-color 0.3s linear;
+}
+
+.yellow {
+  background-color: rgb(255, 255, 119);
+  transition: background-color 0.3s linear;
+}
+
+.green {
+  background-color: rgb(91, 146, 91);
+  transition: background-color 0.3s linear;
+}
+
+.orange {
+  background-color: rgb(223, 186, 117);
+  transition: background-color 0.3s linear;
+}
+
+.blue {
+  background-color: rgb(164, 164, 238);
+  transition: background-color 0.3s linear;
+}
+.purple {
+  background-color: rgb(190, 146, 190);
+  transition: background-color 0.3s linear;
+}
+.hide {
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+}

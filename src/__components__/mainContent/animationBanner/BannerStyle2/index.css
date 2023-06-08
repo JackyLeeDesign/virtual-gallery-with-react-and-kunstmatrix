@@ -1,0 +1,198 @@
+.main_banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  overflow: hidden;
+  background: #d1a689;
+  /* box-shadow: 0px 2px 6px 1px #3d3d3d; */
+}
+
+.cloud1 {
+  position: absolute;
+  width: 30%;
+  top: 10%;
+  z-index: 1;
+  animation: cloud1 15s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+
+.cloud2 {
+  position: absolute;
+  width: 25%;
+  top: 20%;
+  z-index: 1;
+  animation: cloud2 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+
+.cloud3 {
+  position: absolute;
+  width: 25%;
+  top: 8%;
+  z-index: 1;
+  animation: cloud3 20s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+
+.main_banner_img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  overflow: hidden;
+  background: #c7e7fa;
+}
+
+.main_banner_img2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.car_pink {
+  position: absolute;
+  width: 6%;
+  left: -8%;
+  top: 65%;
+  z-index: 1;
+  animation: car_LtoR 20s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.car_blue {
+  position: absolute;
+  width: 6%;
+  top: 66%;
+  left: -8%;
+  z-index: 1;
+  animation: car_LtoR 15s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+}
+
+.car_orange {
+  position: absolute;
+  width: 6%;
+  top: 66%;
+  left: -8%;
+  z-index: 1;
+  animation: car_LtoR 25s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-delay: 6s;
+}
+
+.car_white {
+  position: absolute;
+  width: 6%;
+  top: 69%;
+  left: 100%;
+  z-index: 1;
+  animation: car_RtoL 22s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.car_green {
+  position: absolute;
+  width: 6%;
+  top: 70%;
+  left: 100%;
+  z-index: 1;
+  animation: car_RtoL 30s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-delay: 6s;
+}
+
+.blackcloud {
+  position: absolute;
+  width: 5%;
+  z-index: 1;
+  animation: blackcloud 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes blackcloud {
+  0% {
+    top: 8%;
+    left: 5%;
+    opacity: 0;
+  }
+  50% {
+    top: 5%;
+    left: 6%;
+    opacity: 1;
+  }
+  100% {
+    top: 2%;
+    left: 7%;
+    opacity: 0;
+  }
+}
+
+@keyframes cloud1 {
+  from {
+    left: 5%;
+  }
+  to {
+    left: 25%;
+  }
+}
+
+@keyframes cloud2 {
+  from {
+    right: 28%;
+  }
+  to {
+    right: 40%;
+  }
+}
+
+@keyframes cloud3 {
+  from {
+    left: 60%;
+  }
+  to {
+    left: 85%;
+  }
+}
+
+@keyframes car_LtoR {
+  from {
+    left: -15%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes car_RtoL {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -15%;
+  }
+}

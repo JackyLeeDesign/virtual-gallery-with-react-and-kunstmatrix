@@ -1,0 +1,28 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.loginContainer label {
+    margin: 10px;
+}
+
+.loginContainer input {
+    margin: 10px;
+    padding: 5px;
+}
+
+.loginContainer button {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.loginContainer button:hover {
+    background-color: #0069d9;
+}

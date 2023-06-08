@@ -1,0 +1,38 @@
+.rightarea {
+  position: fixed;
+  right: 20px;
+  bottom: 8%;
+  width: 20px;
+  z-index: 99999;
+}
+.rightarea div {
+  width: 100%;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.rightarea div .fali {
+  font-size: 20px;
+  color: #4679bc;
+}
+.rightarea div .fali:hover {
+  color: rgb(214, 131, 36);
+}
+.display {
+  display: block;
+  animation: show 0.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+.ndisplay {
+  display: none;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

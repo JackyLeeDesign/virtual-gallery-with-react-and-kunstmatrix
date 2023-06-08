@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha&display=swap");
+.section {
+  width: 100%;
+  padding: 0.5em;
+}
+.hrdiv {
+  background-color: #e4e4e4;
+  width: 100%;
+  height: 1px;
+  border-radius: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.titleArea {
+  margin-top: 3em;
+}
+.TitleText {
+  width: auto;
+  color: #575757;
+  font-size: 3em;
+  font-family: "Neucha", "微軟正黑體", cursive;
+}
+.ContainText {
+  color: #919191;
+  font-size: 2em;
+  font-family: "Neucha", "微軟正黑體", cursive;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.ContainText div {
+  font-size: 1em;
+  font-family: "Neucha", "微軟正黑體", cursive;
+}

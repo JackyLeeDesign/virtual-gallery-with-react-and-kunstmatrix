@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerStyle1:UI Test UI test 1`] = `
+<div
+  className="main_banner"
+>
+  <img
+    className="boy_1"
+    src="boy1.png"
+  />
+  <img
+    className="boy_2"
+    src="boy2.png"
+  />
+  <img
+    className="boy_3"
+    src="boy3.png"
+  />
+  <img
+    className="girl_1"
+    src="girl1.png"
+  />
+  <img
+    className="girl_2"
+    src="girl2.png"
+  />
+  <img
+    className="girl_3"
+    src="girl3.png"
+  />
+  <div
+    className="boy_2"
+  />
+  <div
+    className="boy_3"
+  />
+  <div
+    className="girl_1"
+  />
+  <div
+    className="girl_2"
+  />
+  <div
+    className="girl_3"
+  />
+  <img
+    className="main_banner_img"
+    src="banner.png"
+  />
+</div>
+`;
