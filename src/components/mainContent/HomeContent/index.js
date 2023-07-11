@@ -19,7 +19,7 @@ const MainContent = () => {
   return (
     <div className="virtual-gallery-container">
       <div className="virtual-gallery-iframe">
-        <iframe allowfullscreen="true" frameborder="0" scrolling="no" src="https://art.kunstmatrix.com/apps/artspaces/?external=true&uid=92744&exhibition=11837676" width="100%" height="600"></iframe><!--end kunstmatrix-->
+        <iframe allowfullscreen="true" frameborder="0" scrolling="no" src="https://art.kunstmatrix.com/apps/artspaces/?external=true&uid=92744&exhibition=11837676" width="100%" height="600"></iframe>
       </div>
     </div>
   );

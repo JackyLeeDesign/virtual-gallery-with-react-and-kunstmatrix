@@ -1,31 +1,3 @@
-.src-components-Mine-index__loginContainer--eghhC {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-}
-
-.src-components-Mine-index__loginContainer--eghhC label {
-    margin: 10px;
-}
-
-.src-components-Mine-index__loginContainer--eghhC input {
-    margin: 10px;
-    padding: 5px;
-}
-
-.src-components-Mine-index__loginContainer--eghhC button {
-    margin: 10px;
-    padding: 5px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-}
-
-.src-components-Mine-index__loginContainer--eghhC button:hover {
-    background-color: #0069d9;
-}
 /*==================================================================================================================================*/
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------loading特效---------------------------------------------------------------------*/

@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "!style-loader!css-loader!../css/reset.css";
 import "!style-loader!css-loader!../css/custom-style.css";
@@ -22,7 +23,9 @@ window.addEventListener("scroll", () => {
       100
   );
 });
-ReactDOM.render(
+
+const root = createRoot(document.getElementById('IndexLayout'));
+root.render(
   <BrowserRouter>
     <Suspense fallback={<LoadingHome />}>
       <Provider changePageStore={changePageStore} contactStore={contactStore}>
@@ -33,8 +36,7 @@ ReactDOM.render(
         </div>
       </Provider>
     </Suspense>
-  </BrowserRouter>,
-  document.getElementById("IndexLayout")
+  </BrowserRouter>
 );
 
 module.hot.accept();
