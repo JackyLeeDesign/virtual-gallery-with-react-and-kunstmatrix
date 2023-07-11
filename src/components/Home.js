@@ -24,9 +24,8 @@ const Home = (props) => {
   return (
     <Fragment>
       {/* <TopInfo /> */}
-      <SideIcon />
+      {/* <SideIcon /> */}
       {changePage(changePageStore.page)}
-      {changePageStore.page !== 3 && <BottomInfo />}
     </Fragment>
   );
 };
