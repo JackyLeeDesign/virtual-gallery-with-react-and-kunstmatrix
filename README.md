@@ -1,9 +1,9 @@
 # Virtual Gallery with React and Kunstmatrix 🎨🖼
 Welcome to the Virtual Gallery, a web application built with React and integrated with Kunstmatrix. Dive into a virtual space showcasing beautiful artworks.
 
-![](https://hackmd.io/_uploads/S1Cwo33JT.png)
+![](https://github.com/JackyLeeDesign/virtual-gallery-with-react-and-kunstmatrix/blob/main/DEMO.png?raw=true)
 <br>
-![](https://hackmd.io/_uploads/BJaus3hy6.png)
+![](https://github.com/JackyLeeDesign/virtual-gallery-with-react-and-kunstmatrix/blob/main/DEMO2.png?raw=true)
 
 
 ## Features
